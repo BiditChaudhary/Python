@@ -1,0 +1,12 @@
+My_tuple = ("Mercy","Grace")
+print(My_tuple)
+My_tuple1 = (1,2,3,4,5,6)
+print(My_tuple1)
+My_tuple2 = (1,4,"Apple")
+print(My_tuple2)
+My_tuple3 = (1,2,(3,4,5,6))
+print(My_tuple3)
+print(My_tuple3[2])
+print(My_tuple3[2][2])
+for i in My_tuple:
+    print("Hello ",i)
